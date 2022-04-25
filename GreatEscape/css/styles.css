@@ -1,0 +1,273 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  height: 900px;
+  min-width: 1600px;
+}
+
+header {
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20%;
+  min-height: 200px;
+  width: 100%;
+  z-index: 100;
+  filter: drop-shadow(0px 0px 6px #000);
+}
+
+nav > ul {
+  font-family: "Passion One";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 0em;
+  padding-bottom: 5%;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: center;
+  list-style-type: none;
+  border: none;
+}
+nav > ul > li {
+  display: inline-flex;
+  padding-left: 3%;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #707070;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #315778;
+  text-decoration: none;
+}
+
+H1 {
+  font-family: "Passion One";
+  font-weight: 700px;
+  font-size: 64px;
+  line-height: 1.5em;
+  color: #ebb121;
+  margin: 0;
+  filter: drop-shadow(0px 3px 3px #d80f1f);
+  text-align: center;
+}
+
+H2 {
+  font-family: "Kanit";
+  font-size: 64px;
+  color: #000;
+  line-height: 1.25;
+  filter: drop-shadow(0px 3px 2px #000);
+  text-align: center;
+}
+
+H3 {
+  font-family: "Passion One";
+  font-size: 48px;
+  color: #d80f1f;
+  line-height: 1.25;
+  filter: drop-shadow(0px 1px 1.5px #000);
+  text-align: center;
+  clear: both;
+}
+
+h4 {
+  font-family: "Kanit", sans-serif;
+  font-size: 48px;
+  color: #d80f1f;
+  font-style: italic;
+  filter: drop-shadow(0px 1px 1.5px #000);
+}
+
+P {
+  font-family: "Kanit", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  filter: drop-shadow(0px 1px 1.5px #000);
+  color: #315778;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  text-align: center;
+}
+
+/* UNIVERSAL CLASS */
+
+.social-media-spacing {
+ padding-top: 1em;
+  padding-right: 1%;
+  display:inline-flex;
+}
+/* HOME PAGE CLASSES */
+
+.home-icon {
+  background-color: transparent;
+  height: auto;
+  left: 20px;
+  position: fixed;
+  display: flex;
+  top: 10px;
+  margin: 0;
+}
+
+.escaperoom-img {
+  padding-top: 10%;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* FONT ADJUSTMENTS */
+.footer-font {
+  color: #d80f1f;
+  padding-top: 3%;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.ESCAPE {
+  font-family: "bangers";
+  color: #ebb121;
+  letter-spacing: 2px;
+  filter: drop-shadow(0px 3px 2px #d80f1f);
+}
+
+/* CLASSES FOR "CAN YOU BEAT IT?" PICTURE AND TEXT */
+.clues {
+  background-color: transparent;
+  border-radius: 37px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  display: block;
+  top: 50%;
+  width: 50%;
+}
+
+.clues-box {
+  position: relative;
+  left: 22%;
+  text-align: center;
+  display: inline-block;
+}
+
+.clues-text-centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* FAQ CLASSES */
+
+.faq-text {
+  text-align: left;
+  font-weight: lighter;
+  padding-bottom: 30px;
+  padding-top: 15%;
+  padding-left: 2%;
+}
+
+/* BOOKING CLASSES */
+
+.booking-image {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+  display: block;
+  padding-top: 10%;
+}
+
+.footer-margin {
+  margin-top: 0%;
+}
+
+/* CONTACT US CLASSES */
+
+.titles {
+  text-align: left;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.row {
+  float: left;
+  padding-top: 15%;
+  padding-left: 2%;
+  text-align: left;
+  margin-right: 0%;
+  margin-left: 0%;
+  width: 46%;
+}
+
+.column {
+  display: block;
+  float: left;
+  text-align: left;
+  font-weight: lighter;
+  margin-top: 0%;
+  padding-right: 2%;
+  column-gap: 2%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-right: 0%;
+}
+
+.google-map {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  display: block;
+}
+
+/* GALLERY CLASSES */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  padding-top: 15%;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+.col {
+  margin: 0;
+  overflow: visible;
+}
+
+.col p {
+  width: 80%;
+  padding-left: 0%;
+}
+
+.p_content {
+  padding-left: 10px;
+  margin-bottom: auto;
+  text-align: left;
+}
